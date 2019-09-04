@@ -15,7 +15,7 @@ cashe:
 
 install:
   -whoami
-  -echo "Start of pipline"
+  -echo "Start of pipeline"
   -HOMEBREW_NO_AUTO_UPDATE=1
 
 script:
