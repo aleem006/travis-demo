@@ -1,5 +1,5 @@
 os: osx
-osx_images: xcode10.2
+osx_image: xcode10.2
 
 language: bash
 
@@ -10,6 +10,7 @@ install:
 
 script:
   - ls
+  - chmod +x hello.sh
   - ./hello.sh
 
 after_script:
